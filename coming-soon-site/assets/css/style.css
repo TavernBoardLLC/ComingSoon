@@ -1,0 +1,81 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Inter', sans-serif;
+  background: url('../images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #2a2a2a; /* Soft dark gray for contrast */
+  text-shadow: 1px 1px 2px #ffffff; /* subtle shadow for readability */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Logo Image */
+.logo {
+  max-width: 200px;
+  margin-bottom: 2rem;
+}
+
+/* Main Heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  color: #00c2c2; /* Tavern & Board teal */
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+/* Paragraph Text */
+p {
+  font-size: 1.2rem;
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: #333; /* Darker grey for clarity */
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.9rem;
+  color: #444;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+/* Link Styling */
+a {
+  color: #00c2c2; /* brand teal */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Typography */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
+}

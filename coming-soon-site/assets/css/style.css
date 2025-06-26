@@ -8,7 +8,7 @@
 /* Body Styling */
 body {
   font-family: 'Inter', sans-serif;
-  background: url('../images/background.jpg') no-repeat center center fixed;
+  background: url('../images/background.jpg.png') no-repeat center center fixed;
   background-size: cover;
   color: #2a2a2a; /* Soft dark gray for contrast */
   text-shadow: 1px 1px 2px #ffffff; /* subtle shadow for readability */

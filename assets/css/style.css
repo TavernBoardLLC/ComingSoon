@@ -9,10 +9,8 @@
 body {
   border: 5px solid #00c2c2; /* Tavern & Board teal */
   font-family: 'Inter', sans-serif;
-  background: url('https://upload.wikimedia.org/wikipedia/commons/9/94/Map_of_Middle-earth.png') no-repeat center center fixed;
+  background: url('assets/images/background.png') no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   color: #2a2a2a;
   text-shadow: 1px 1px 2px #ffffff;
   height: 100vh;
@@ -23,12 +21,26 @@ body {
   text-align: center;
   padding: 2rem;
   margin: 0;
+  position: relative;
+  z-index: 0;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.45); /* adjustable darkness */
+  z-index: -1;
+}
+
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
+
+
+
 /* Logo Image */
 .logo {
   max-width: 300px;

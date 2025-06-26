@@ -9,7 +9,7 @@
 body {
   border: 5px solid #00c2c2; /* Tavern & Board teal */
   font-family: 'Inter', sans-serif;
-  background: url('https://www.transparenttextures.com/patterns/brick-wall.png') repeat;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/9/94/Map_of_Middle-earth.png') no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

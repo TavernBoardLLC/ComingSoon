@@ -20,7 +20,11 @@ body {
   text-align: center;
   padding: 2rem;
 }
-
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 /* Logo Image */
 .logo {
   max-width: 300px;

@@ -4,103 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tavern & Board</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
-  <style>
-    /* Add styles here if not using external CSS */
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body, html {
-      height: 100%;
-      font-family: 'Inter', sans-serif;
-      color: white;
-      overflow: hidden;
-    }
-
-    .background-layer {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background-image: url('assets/images/background.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      z-index: -1;
-    }
-
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      padding: 1rem;
-    }
-
-    .content-panel {
-      background-color: rgba(0, 0, 0, 0.75);
-      padding: 2rem;
-      border-radius: 12px;
-      max-width: 600px;
-      width: 90%;
-      text-align: center;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-    }
-
-    .logo {
-      max-width: 300px;
-      height: auto;
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-
-    p {
-      font-size: 1rem;
-      margin-bottom: 1rem;
-    }
-
-    .contact-section h2 {
-      margin-top: 1.5rem;
-      margin-bottom: 0.5rem;
-      font-size: 1.2rem;
-    }
-
-    .contact-links {
-      list-style: none;
-      padding: 0;
-    }
-
-    .contact-links li {
-      margin: 0.5rem 0;
-    }
-
-    .contact-links a {
-      color: #4fc3f7;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .contact-links a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 
 <body>
-  <!-- Background Layer -->
-  <div class="background-layer"></div>
+  <!-- Full-screen background layer -->
+  <div style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('assets/images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  "></div>
 
-  <!-- Centered Foreground Panel -->
+  <!-- Foreground content -->
   <div class="container">
     <div class="content-panel">
       <img src="assets/images/logo.png" alt="Tavern & Board Logo" class="logo" />
@@ -124,3 +47,4 @@
   </div>
 </body>
 </html>
+
